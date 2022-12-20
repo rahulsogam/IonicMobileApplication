@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+    <ion-card-header>
+      <ion-card-title>Register As :</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group value="custom-check" >
+        <ion-item>
+          <ion-label>Donor</ion-label>
+          <ion-radio slot="start" value="Donor"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Consumer</ion-label>
+          <ion-radio slot="start" value="Consumer"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Details</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Name</ion-label>
+        <ion-input placeholder="Enter Full Name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email" placeholder="Enter Email Address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Phone</ion-label>
+        <ion-input type="tel" placeholder="Enter Contact No"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" placeholder="Enter Security Password"></ion-input>
+      </ion-item>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Address</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Address 1</ion-label>
+        <ion-input placeholder="Enter Address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Address 2</ion-label>
+        <ion-input type="tel" placeholder="Enter Address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Address 3</ion-label>
+        <ion-input type="text" placeholder="Enter Address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">State</ion-label>
+        <ion-input type="text" placeholder="Enter state"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">City</ion-label>
+        <ion-input type="text" placeholder="Enter city"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Pin code</ion-label>
+        <ion-input type="tel" placeholder="Enter eir code"></ion-input>
+      </ion-item>
+  </ion-card-content>
+</ion-card>
+<ion-button size="full" color="success">REGISTER</ion-button>
+</ion-content>
