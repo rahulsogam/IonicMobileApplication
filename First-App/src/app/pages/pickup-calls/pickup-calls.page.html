@@ -1,11 +1,14 @@
 <ion-header>
   <ion-toolbar color="success">
     <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
+      <ion-back-button text=""> </ion-back-button>
     </ion-buttons>
     <ion-title>My Pickup Calls</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
-
+  <app-pickup-call-card [hasHeader]="false" [hasFooter]="false" status="On Hold" createdAt="12/12/2022" notes="nothing as such"></app-pickup-call-card>
+  <app-pickup-call-card [hasHeader]="false" [hasFooter]="false" status="Processing" createdAt="09/12/2022" notes="nothing as such"></app-pickup-call-card>
+  <app-pickup-call-card [hasHeader]="false" [hasFooter]="false" status="Completed" createdAt="01/12/2022" notes="nothing as such" value="10.00"></app-pickup-call-card>
+  
 </ion-content>
